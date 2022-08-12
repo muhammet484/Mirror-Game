@@ -1,0 +1,26 @@
+use idle3 instead of idle1
+use walking2 instead of walking1
+they are in "other animations"
+
+
++duruyorken baþlayacak -> yayý alma animasyonu
+yürüyorken baþlayacak -> yayý alma animasyonu
++(iskelet yayý almak için sol elini arkasýna atar ve eli yaya deydiðinde yay omurganýn çocuðu olmaktan çýkar ve sol elin çocuðu olur. animasyon burada bitse de olur çünkü diðer animasyonlara geçiþ yapýlacak.)
++yay elde durma animasyonu
+
+duruyorken baþlayacak -> yayý geri takma animasyonu
+yürüyorken baþlayacak -> yayý geri takma animasyonu
+(iskelet yayý tuttuðu sol elini arkasýna atar ve yay orada býrakýlýr. bu anda yay elin çocuðu olmaktan çýkar ve omurganýn çocuðu olur. animasyon burada bitse de olur çünkü diðer animasyonlara geçiþ yapýlacak.)
+
+yay ile yürüme animasyonu
+yay ile durma animasyonu
+
+yay elde any state hedef alma animasyonu
+yay elde any state yürüme animasyonu
+sadece bacaklarý etkileyen yürüme animasyonu (bununla yürürken hem yay elde yürünebilir hem de hedef alýnabilir)
+ok yayda iken animasyonsuz durabilir
+
+yay ile duruyorken baþlayacak -> oku yaya takýp atma animasyonu (burada yayýn gerilme animasyonu ile fýrlatýlma animasyonunu ikiye bölmemiz lazým)
+(iskelet oku almak için elini ok kýlýfýna götürür o anda eline isntantiate ile bir ok ýþýnlanýr. okun sapýndan tutup bunu yayýn ucuna götürüp geriye çeker. ok, yayýn teline deydiðinde yayýn gerilme animasyonu uygun hýza baþlar. yayýn gerilme animasyonu bitip fýrlatma kýsmýna gelince iskelet elini indirir. ok yayýn ucuna gelir. yayýn atýþ animasyonu gerçekleþir.
+sonra animasyon biter ve animasyon biter bitmez ok belirlenen hýzda transform.forward'a gider.
+)

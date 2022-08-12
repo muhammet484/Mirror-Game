@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8867863409297063501
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 827bc7484fde80747b0d3f65eb998e28, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 33.011
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 827bc7484fde80747b0d3f65eb998e28, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.924
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 827bc7484fde80747b0d3f65eb998e28, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -24.5275
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 827bc7484fde80747b0d3f65eb998e28, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 827bc7484fde80747b0d3f65eb998e28, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 827bc7484fde80747b0d3f65eb998e28, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 827bc7484fde80747b0d3f65eb998e28, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 827bc7484fde80747b0d3f65eb998e28, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 827bc7484fde80747b0d3f65eb998e28, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 827bc7484fde80747b0d3f65eb998e28, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 827bc7484fde80747b0d3f65eb998e28, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 827bc7484fde80747b0d3f65eb998e28, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.018407414
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 827bc7484fde80747b0d3f65eb998e28, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.02458301
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 827bc7484fde80747b0d3f65eb998e28, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.0252605
+      objectReference: {fileID: 0}
+    - target: {fileID: -8030484128088382276, guid: 827bc7484fde80747b0d3f65eb998e28, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0120292b17fccee4db22609c9f6eb02a, type: 2}
+    - target: {fileID: 919132149155446097, guid: 827bc7484fde80747b0d3f65eb998e28, type: 3}
+      propertyPath: m_Name
+      value: Viking_helm
+      objectReference: {fileID: 0}
+    - target: {fileID: 4013483709434406274, guid: 827bc7484fde80747b0d3f65eb998e28, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 35cae66ffab1c2c4d824be383d02d7e6, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 827bc7484fde80747b0d3f65eb998e28, type: 3}

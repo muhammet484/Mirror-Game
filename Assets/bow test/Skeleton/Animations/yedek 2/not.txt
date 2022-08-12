@@ -1,0 +1,38 @@
+use idle3 instead of idle1
+use walking2 instead of walking1
+they are in "other animations"
+
+animasyon controlle'de takebowBegining ile takeBowLast'ýn transition'ýný sýfýrla. hýzlý geçiþ yapsýn yani
+
++duruyorken baþlayacak -> yayý alma animasyonu
+yürüyorken baþlayacak -> yayý alma animasyonu
++(iskelet yayý almak için sol elini arkasýna atar ve eli yaya deydiðinde yay omurganýn çocuðu olmaktan çýkar ve sol elin çocuðu olur. animasyon burada bitse de olur çünkü diðer animasyonlara geçiþ yapýlacak.)
++yay elde durma animasyonu
+
+duruyorken baþlayacak -> yayý geri takma animasyonu
++yürüyorken baþlayacak -> yayý geri takma animasyonu
+(iskelet yayý tuttuðu sol elini arkasýna atar ve yay orada býrakýlýr. bu anda yay elin çocuðu olmaktan çýkar ve omurganýn çocuðu olur. animasyon burada bitse de olur çünkü diðer animasyonlara geçiþ yapýlacak.)
+
++yay elde yürüme animasyonu
+
++yay ile duruyorken baþlayacak -> oku yaya takýp atma animasyonu
++(burada yayýn gerilme animasyonu ile fýrlatýlma animasyonunu ikiye bölmemiz lazým)
++(iskelet oku almak için elini ok kýlýfýna götürür 
++o anda eline instantiate ile bir ok ýþýnlanýr. 
++okun sapýndan tutup bunu yayýn ucuna götürüp geriye çeker. 
++ok, yayýn teline deydiðinde yayýn gerilme animasyonu uygun hýzla baþlar. 
++yayýn gerilme animasyonu bitip fýrlatma kýsmýna gelince iskelet elini indirir. 
+sonra animasyon biter ve animasyon biter bitmez ok belirlenen hýzda transform.forward'a gider.)
+
+bir de bunun yürürkenki halini yap
+
+yay ipinin maksimum gerilme konumu
+Vector3(-0.000530000019,-0.0504200011,-0.000180000003)
+
+
+
+oku takma:
+
+1. 0da
+2. 40de
+3. 1.00da
